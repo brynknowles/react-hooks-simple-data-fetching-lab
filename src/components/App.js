@@ -14,7 +14,7 @@ function App() {
 
     if (!image) return <p>Loading...</p>
 
-    return <img src={image} alt={image.message} width="400"/>
+    return <img src={image} alt="A Random Dog" width="400"/>
 }  
 
 export default App;
